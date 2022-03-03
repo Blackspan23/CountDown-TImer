@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script:regular" rel="stylesheet" />
+  <title>Countdown Timer</title>
+  </head>
+<body>
+  <header>
+    <div id="home" class="head">HOME</div>
+    <div id="contato" class="head">CONTATO</div>
+    <div id="etc" class="head">ETC</div>
+  </header>
+  <div class="glass">
+    <div class="wraper">
+      <span>SELECT A DATE TO COUNTDOWN</span>
+        <div class="input" id="father">
+          <input class="nameEvent" id="nome" value='' type="text" placeholder="INSERT YOUR EVENT'S NAME">
+          <input class="data_ipt" id="ipt_data" type="date">
+          <button id="add">Count</button>
+        </div>
+        <div class="container3">
+          <div class="date1">
+            <div id="out_days" class="out1">0 0</div>
+            <div id="out_hours" class="out1">0 0</div>
+            <div id="out_minutes" class="out1">0 0</div>
+            <div id="out_seconds" class="out1">0 0</div>
+          </div>
+        </div>
+        <div class="container3">
+          <div class="date2">
+            <div class="out">Days</div>
+            <div class="out">Hours</div>
+            <div class="out">Minutes</div>
+            <div class="out">Seconds</div>
+          </div>
+        </div>
+    </div>
+  </div>
+<script type="module" src="main.js" defer></script>
+</body>
+</html>

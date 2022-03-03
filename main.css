@@ -1,0 +1,150 @@
+:root{
+  --color: #74112F ;
+  --darker: #0C0C1E;
+  --light: #F3E3E2;
+  --dark: #1B2E3C;
+  --green: rgba(0, 128, 0, 0.322);
+  --greenpower: rgba(0, 128, 0, 1);
+}
+
+body{
+  font-family: 'Kaushan Script';
+  color: var(--greenpower);
+  font-size: 32px;
+  margin: 0;
+  background-image: url(/imgGerenal/pexels-ali-alcántara-11145333.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header{
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  color: var(--light);
+  background-color: var(--darker);
+}
+.head{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.glass{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.wraper{
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  width: 60%;
+  display: column;
+}
+span{
+  font-size: 2.2rem;
+}
+.input{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameEvent{
+  background-color: var(--green);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  font-size: 1.6rem;
+  font-family: 'Kaushan Script';
+}
+::placeholder{
+  color: #000;
+}
+.data_ipt{
+  border-radius: 5px;
+  font-family: 'Kaushan Script';
+  margin-top: 15px;
+  width: 50%;
+  font-size: 20px;
+  border: none;
+  color: var(--darker);
+  background-color: var(--green);
+}
+button{
+  margin-top: 15px;
+  font-family: 'Kaushan Script';
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 50px;
+  color: var(--greenpower);
+  background-color: var(--darker);
+}
+.nameLabel{
+  margin-top: 50px;
+  font-size: 3rem;
+  color: var(--darker);
+  padding: 0px 45px;
+  border-radius: 50px;
+  background-color: var(--green)
+}
+.container3{
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+.date1{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+}
+.date2{
+  margin-top: 0px;
+  display: flex;
+  width: 100%;
+}
+.out{
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin: 0px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  color: #000;
+  align-items: center;
+}
+.out1{
+  background-color: #0c0c1e;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  font-size: 45px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
